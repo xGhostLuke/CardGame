@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Healthbar
+  - Card
+  - Enemy
   layers:
   - Default
   - TransparentFX

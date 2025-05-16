@@ -8,6 +8,8 @@ public class CardScript : MonoBehaviour
     [SerializeField] private bool isSelected;
     [SerializeField] private int damage;
     [SerializeField] private string type;
+    [SerializeField] private int size;
+    [SerializeField] private int selSize;
 
     
     void Start()
@@ -19,9 +21,9 @@ public class CardScript : MonoBehaviour
     void Update()
     {
         if (isSelected){
-            card.transform.localScale = new Vector3(5, 5);
+            card.transform.localScale = new Vector3(selSize, selSize);
         }else{
-            card.transform.localScale = new Vector3(4, 4);
+            card.transform.localScale = new Vector3(size, size);
         }
     }
 

@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     [SerializeField] private CardScript cardScript;
+    [SerializeField] private ItemController item;
     [SerializeField] private GameObject currentEnemy;
     private EnemyController enemyController;
 
@@ -17,16 +18,24 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void takeTurn(){
-        if(cardScript.getType().Equals("offensive")){
+    public void takeTurn()
+    {
+        if (cardScript.getType().Equals("offensive"))
+        {
             enemyController.takeDamage(cardScript.getDamage());
         }
-    } 
+    }
 
-    public void setCard(CardScript card){
+    public void setCard(CardScript card)
+    {
         cardScript = card;
+    }
+
+    public void setItem(ItemController itemController)
+    {
+        item = itemController;
     }
 }

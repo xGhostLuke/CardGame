@@ -7,6 +7,7 @@ TagManager:
   - Healthbar
   - Card
   - Enemy
+  - Item
   layers:
   - Default
   - TransparentFX

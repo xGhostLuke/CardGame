@@ -19,7 +19,11 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        healthbar.transform.localScale = new Vector3(currentHealth/500f, 0.02f, 1);
+        healthbar.transform.localScale = new Vector3(currentHealth / 500f, 0.02f, 1);
+        if (currentHealth == 0)
+        {
+            Destroy(gameObject);   
+        }
     }
 
     public void takeDamage(int ammount){

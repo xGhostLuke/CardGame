@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d35d4b7b3f8864e40892356aec601391
+guid: debea989f1759dc4caf2002653ecc08a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -53,7 +53,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -108,18 +108,47 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
-    outline: []
+    sprites:
+    - serializedVersion: 2
+      name: inventory_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 111
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3ba076fba5b5e478ade016691b65fe
+      internalID: 787039215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -9, y: -17}
+      - {x: -65, y: -17}
+      - {x: -65, y: -16}
+      - {x: -65, y: 38}
+      - {x: -65, y: 80}
+      - {x: 32, y: 80}
+      - {x: 32, y: -17}
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inventory_0: 787039215
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
